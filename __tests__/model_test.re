@@ -2,6 +2,6 @@ open Jest;
 
 describe("some test", () =>
   test("passes!", () =>
-    Expect.(expect(false) |> toBe(false))
+    Expect.(expect(true) |> toBe(true))
   )
 );
